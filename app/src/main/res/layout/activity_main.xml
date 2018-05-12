@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relLay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="lab4_204_40.uwaterloo.ca.lab4_204_40.MainActivity">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:context="lab4_204_40.uwaterloo.ca.lab4_204_40.MainActivity">
+
+
+    </RelativeLayout>
+    <TextView
+        android:text="State:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFSMState"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="1200px"
+        android:textSize="30sp" />
+
+</RelativeLayout>
